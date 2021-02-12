@@ -1,0 +1,64 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.web-studio-black{
+  color: var(--full-balck);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.02em;
+}
+
+.web-studio-white{
+  color: var(--full-white);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.02em;
+}
+
+.web{
+  color: var(--text-blue);
+}
+
+.nav-menu > li > a{
+  color: var(--title-text);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.nav-menu > li > a:hover,
+.nav-menu > li > a:focus{
+  color: var(--text-blue);
+}
+
+.nav-contact > li > a{
+  color: var(--subtitle-text);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.nav-contact > li > a:hover,
+.nav-contact > li > a:focus{
+  color: var(--text-blue);
+}
+
+.footer-block{
+  background-color: var(--bg-main-color);
+}
+
+.street{
+  color: var(--full-white);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;  
+  letter-spacing: 0.02em;
+}
+
+.nav-menu > li > .current{
+  color: var(--text-blue);
+}
