@@ -11,15 +11,27 @@ body{
 }
 
 .web-studio-white{
+  width: 145px;
+  height: 31px;
   color: var(--full-white);
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.02em;   
 }
 
 .web{
   color: var(--text-blue);
+}
+
+.nav-menu{
+  display: flex;
+  margin-left: 93px;  
+}
+
+.nav-menu :not(:last-child),
+.nav-contact :not(:last-child){
+  padding-right: 50px;
 }
 
 .nav-menu > li > a{
@@ -34,6 +46,10 @@ body{
   color: var(--text-blue);
 }
 
+.nav-contact{
+  display: flex;     
+} 
+
 .nav-contact > li > a{
   color: var(--subtitle-text);
   font-weight: 500;
@@ -47,8 +63,22 @@ body{
   color: var(--text-blue);
 }
 
+.nav-contact > li:not(:last-child){
+  margin-bottom: 9px;
+}
+
+.nav-contact-li{
+  display: block;
+  padding-bottom: 60px;
+}
+
 .footer-block{
   background-color: var(--bg-main-color);
+  padding-top: 60px;
+}
+
+#contacts{ 
+  margin-top: 30px;
 }
 
 .street{
@@ -57,8 +87,32 @@ body{
   font-size: 14px;
   line-height: 1.7;  
   letter-spacing: 0.02em;
+  margin-bottom: 9px;
 }
 
 .nav-menu > li > .current{
   color: var(--text-blue);
+}
+
+.container{
+  width: 1200px;
+  padding: 0px 15px;
+  margin: 0 200px auto;  
+}
+
+.position-container{
+  display: flex;
+}
+
+.header-nav{
+  display: flex;
+  align-items: center;  
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.div-contact{
+  display: flex;
+  align-items: center;
+  margin-left: 331px;    
 }

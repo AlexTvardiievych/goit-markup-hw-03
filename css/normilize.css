@@ -5,6 +5,13 @@
 /* обнуляем дефолтные маркеры у всех маркированных списков */
 ul {
   list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
 }
 
 /* обнуляем дефолтные подчеркивания у всех ссылок */
@@ -67,7 +74,13 @@ Sections
 Remove the margin in all browsers.
 */
 
-body {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   padding: 0;
 }
