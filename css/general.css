@@ -68,13 +68,13 @@ body{
 }
 
 .nav-contact-li{
-  display: block;
-  padding-bottom: 60px;
+  display: block;  
 }
 
 .footer-block{
   background-color: var(--bg-main-color);
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 #contacts{ 
@@ -97,7 +97,7 @@ body{
 .container{
   width: 1200px;
   padding: 0px 15px;
-  margin: 0 200px auto;  
+  margin: 0 auto;  
 }
 
 .position-container{

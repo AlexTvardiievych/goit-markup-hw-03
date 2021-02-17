@@ -16,8 +16,7 @@
 }
 
 .content-section{
-  padding: 94px 0px;
-  
+  padding: 94px 0px; 
 }
 
 .filter-btn-class{
@@ -66,6 +65,7 @@
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
+  border: 1px solid var(--projects-border);  
 }
 
 .projects > li > div > h3{
@@ -86,14 +86,11 @@
 }
 
 .projects > li > img{
-  width: 370px;
+  width: 368px;
   height: 294px;
   display: block;
-  margin-bottom: 20px;
 }
 
 .img-text{
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-bottom: 20px;
+  padding: 20px 24px;  
 }
